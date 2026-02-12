@@ -94,6 +94,15 @@ const ImageUploader = () => {
 
     return (
         <div>
+            <p>
+                Instructions: This is a workflow for volunteers documenting the seat numbers and seat description. <br/>
+                The Choose File Button allows you to select files. Please upload the seat description and seat number as 2 files one after another. <br/>
+                This workflow only works with an even number of images. <br/>
+                After you have selected the files, press the submit button. This will convert the images to text. <br/>
+                Press the download CSV button. <br/>
+                If done correctly, it will output a CSV file with description and seat number as two columns. <br/>
+                If there are any questions, reach out to uasif13@gmail.com. <br/>
+            </p>
             <div>
                 <input type='file' accept='image/*' onChange={handleImageUpload} multiple />
             </div>
