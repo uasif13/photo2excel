@@ -9,9 +9,15 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "axios": "^1.13.5",
+    "csv-writer": "^1.6.0",
+    "fast-csv": "^5.0.5",
+    "fs": "0.0.1-security",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "tesseract": "^0.0.3",
+    "tesseract.js": "^7.0.0"
   },
   "devDependencies": {
     "eslint": "^9",
